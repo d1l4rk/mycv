@@ -1,0 +1,37 @@
+/* para recordar text-aling: center -=> se usa un etiquetas padre para que todo se alinee en el centro
+    pero si tenemos width en uno de los elementos no podra aplicarse este estilo, entonces usamos el
+    sgte codigo -=> margin: 0 auto 0 auto; se usa para centrar algo horizontalmente
+*/
+
+body{
+  margin: 0;
+  text-align: center;
+}
+h1{
+    margin-top: 0;
+    font-family: 'Sacramento';
+}
+h2{
+    font-family: 'Montserrat';
+}
+h3{
+  font-family: 'Merriweather';
+}
+
+.top-container{
+  background: #9399ff;
+  position: relative;
+  padding-top:  100px;
+
+}
+.cloud-top{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.cloud-bottom{
+  position: absolute;
+  left: 300px;
+  bottom : 300px;
+}
